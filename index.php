@@ -1,7 +1,7 @@
 <?php
 /*
-CREDIT TO @Benchamxd
-CHANNEL @indusbots
+CREDIT TO @ITZ_SHADOW_XD
+CHANNEL @TEAM_BOT_UPDATE
 PLEASE DONT REMOVE THIS CREDITS
 */
 
@@ -25,7 +25,7 @@ $message_id = $message->message_id;
 $text = $message->text;
 $indusbots = $message->forward_from_chat->id;
 $BOT_TOKEN = $HEROKU['BOT_TOKEN'];
-//////////////////BENCHAMXD////////////////////////////BENCHAMXD///////BENCHAMXD///////////BENCHAMXD////////
+//////////////////ITZ_SHADOW_XD////////////////////////////ITZ_SHADOW_XD///////ITZ_SHADOW_XD///////////ITZ_SHADOW_XD////////
 if($text == "/start"){
  bot('sendMessage',[
  'chat_id'=>$chat_id,
@@ -49,14 +49,14 @@ bot('sendMessage',[
 'reply_to_message_id'=>$message_id,
 ]); 
 }
-/////////BENCHAMXD////////BENCHAMXD///////BENCHAMXD///////BENCHAMXD////
+/////////ITZ_SHADOW_XD////////ITZ_SHADOW_XD///////ITZ_SHADOW_XD///////ITZ_SHADOW_XD////
 if ($text == '/id')
 bot ('sendMessage' ,[
 'chat_id'=>$chat_id,'text'=>"This chat id is `$chat_id`",
 'parse_mode'=>"MarkDown",
 ]);
 /*
-CREDITS:- @BENCHAMXD
-CHANNEL:- @indusbots
+CREDITS:- @ITZ_SHADOW_XD
+CHANNEL:- @TEAM_BOT_SUPPORT
 */
 ?>
