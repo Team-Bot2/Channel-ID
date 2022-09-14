@@ -7,7 +7,7 @@
         "Channel"
     ],
     "logo": "https://telegra.ph/file/1794c81b97fc30dcefeb2.png",
-    "repository": "https://github.com/Benchamxd/Chnlidbot",
+    "repository": "https://github.com/Team-Bot2/Channel-ID",
     "success_url": "/",
     "env": {
         "BOT_TOKEN": {
